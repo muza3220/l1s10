@@ -1,0 +1,154 @@
+.main {}
+
+.freedom {
+    background-image: url(../images/watches.jpg);
+    background-repeat: no-repeat;
+    background-size: 80.4rem 83.6rem;
+    background-position: right -30rem top 5rem;
+    padding-top: 16rem;
+    padding-bottom: 30rem;
+}
+
+.free__h1 {
+    font-size: 5rem;
+}
+
+.free__p {
+    font-size: 12px;
+    max-width: 32rem;
+    line-height: 18px;
+    font-weight: bold;
+    color: #999;
+    margin-left: 3rem;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    height: 9rem;
+    width: 2px;
+    background: #999;
+    left: -3rem;
+}
+
+
+.inform {
+    padding-top: 4.5rem;
+}
+
+.container {}
+
+.inform__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.card1 {}
+
+.cards__h2 {
+    margin-bottom: 3.5rem;
+}
+
+.cards__p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+
+    position: relative;
+}
+
+.squares {
+    width: 5px;
+    height: 5px;
+    background: #C7C8C8;
+    display: inline-block;
+    margin-top: 10px;
+
+    position: absolute;
+    top: 110%;
+    left: 0;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+
+        position: absolute;
+        left: 1.5rem;
+    }
+
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+
+        position: absolute;
+        left: 3rem;
+    }
+}
+
+.learn__more {
+    display: inline-block;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: #EA625C;
+    font-size: 1rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 2.5rem;
+        height: 2px;
+        background: #EA625C;
+        margin-right: 10px;
+        transition: .3s;
+    }
+}
+
+.learn__more:hover::before {
+    width: 3.5rem;
+}
+
+.nike {
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+
+.nike__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {}
+
+.nike__h1 {
+    font-size: 4rem;
+    max-width: 34rem;
+    opacity: .8;
+}
+
+.free__p {}
+
+.line {}
+
+.btn {}
+
+.right {}
+
+.preview__img {
+    width: 40rem;
+    height: 60rem;
+}

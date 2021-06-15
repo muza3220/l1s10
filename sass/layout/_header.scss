@@ -1,0 +1,56 @@
+.header {}
+
+.hearder__wrapper {
+    margin-top: 5rem;
+    @include dis2x;
+}
+
+.logo__link {}
+
+.logo__img {
+    width: 5rem;
+    height: 5rem;
+    vertical-align: middle;
+}
+
+.nav {
+    list-style: none;
+    @include dis2x;
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ADABAC;
+    padding-bottom: 7px;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+
+    &:hover {
+        border-bottom: 1px solid black;
+        color: black;
+    }
+}
+
+.help__inp {
+    padding-bottom: 5px;
+    max-width: 16rem;
+    color: #000;
+    font-size: 1.5rem;
+    background: inherit;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(37, 37, 37);
+
+    &::placeholder {
+        color: rgb(54, 53, 53);
+        font-weight: 550;
+    }
+}
